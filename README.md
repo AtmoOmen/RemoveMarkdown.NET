@@ -35,7 +35,7 @@ string markdown = "# This is a heading\n\nThis is a paragraph with a [link](http
 string plainText = MarkdownRemover.Remove(markdown); // plainText becomes "This is a heading\n\nThis is a paragraph with a link."
 ```
 
-You can also provide options to control the removal process:
+Options:
 
 ```csharp
 using RemoveMarkdown;
@@ -56,8 +56,6 @@ string plainText = MarkdownRemover.Remove(markdown, new RemoveMarkdownOptions
 Setting `StripListLeaders` to false will preserve list markers (`*, -, +, (number).`).
 
 ## Features
-
-RemoveMarkdown.NET supports the following features:
 
 - Removing headers (ATX and Setext style)
 - Removing emphasis (* and _)
@@ -110,7 +108,7 @@ string markdown = "# 这是标题\n\n这是一个包含 [链接](http://www.exam
 string plainText = MarkdownRemover.Remove(markdown); // plainText 变为 "这是标题\n\n这是一个包含 链接 的段落。"
 ```
 
-您还可以提供选项来控制移除过程：
+配置项：
 
 ```csharp
 using RemoveMarkdown;
@@ -132,8 +130,6 @@ string plainText = MarkdownRemover.Remove(markdown, new RemoveMarkdownOptions
 
 ## 功能特性
 
-RemoveMarkdown.NET 支持以下功能：
-
 - 移除标题（ATX 和 Setext 风格）
 - 移除强调（* 和 _）
 - 移除链接和图片
@@ -150,4 +146,4 @@ RemoveMarkdown.NET 支持以下功能：
 
 ## 许可证
 
-MIT 
+MIT
