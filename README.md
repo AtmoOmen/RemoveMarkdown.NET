@@ -8,10 +8,6 @@
 
 **RemoveMarkdown.NET** is a .NET library that converts Markdown-formatted text to plain text.
 
-## Use Cases
-
-The primary use case is generating plain text previews or summaries from Markdown content - for example, creating article lists, search result previews, or extracting content for indexing and search purposes.
-
 ## Installation
 
 Install via NuGet:
@@ -80,10 +76,6 @@ MIT
 ## 简介
 
 **RemoveMarkdown.NET** 是将 Markdown 格式文本转为纯文本的 .NET 库
-
-## 应用场景
-
-主要应用场景是从 Markdown 内容生成纯文本预览或摘要，例如创建文章列表、搜索结果预览，或提取内容用于索引和搜索。
 
 ## 安装方法
 
